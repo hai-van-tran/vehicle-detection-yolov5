@@ -1,0 +1,19 @@
+# Source: https://docs.ultralytics.com/yolov5/tutorials/train_custom_data/#11-create-datasetyaml
+# Dataset root directory relative to the yolov5 directory
+path: ../dataset/vehicles_8/training_yolov5
+
+# Train/val/test sets: specify directories, *.txt files, or lists
+train: images/train # 6000 images for training
+val: images/val # 2000 images for validation
+test: images/test # 218 images for test
+
+# Classes
+names:
+    0: auto
+    1: bus
+    2: car
+    3: lcv
+    4: motorcycle
+    5: multiaxle
+    6: tractor
+    7: truck

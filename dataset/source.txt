@@ -1,0 +1,1 @@
+Vehicle Detection 8 Classes - Object Detection (Saksham Jain, https://www.kaggle.com/datasets/sakshamjn/vehicle-detection-8-classes-object-detection/data)
