@@ -1,7 +1,7 @@
 # Vehicle Detection with Yolov5
 
 <details open>
-<summary><strong style="font-size: 1.5em;">1. Project overview</strong></summary>
+<summary><strong style="font-size: 1.7em;">1. Project overview</strong></summary>
 
 - The aim of this project is to apply the [YOLOv5](https://github.com/ultralytics/yolov5) model for object detection
 by continuing the training of the model on a specific vehicle dataset. [YOLOv5](https://github.com/ultralytics/yolov5) 
@@ -13,9 +13,9 @@ detection, and segmentation.
 
 </details>
 
-<details open>
 <a id="2"></a>
-<summary><strong style="font-size: 1.5em;">2. Dataset</strong></summary>
+<details open>
+<summary><strong style="font-size: 1.7em;">2. Dataset</strong></summary>
 
 - The vehicle dataset used for training in this project includes 8 classes: auto, bus, car, lcv, motorcycle, multiaxle, tractor, truck. It was provided by Saksham Jain
 and is available on Kaggle at the following link: [Vehicle Detection 8 Classes - Object Detection](https://www.kaggle.com/datasets/sakshamjn/vehicle-detection-8-classes-object-detection/data)
@@ -28,10 +28,9 @@ separate datasets for training and testing.
 
 </details>
 
-
-<details open>
 <a id="3"></a>
-<summary><strong style="font-size: 1.5em;">3. Model</strong></summary>
+<details open>
+<summary><strong style="font-size: 1.7em;">3. Model</strong></summary>
 
 - The YOLOv5 repository is available on Ultralytics' GitHub: [https://github.com/ultralytics/yolov5](https://github.com/ultralytics/yolov5). 
 The YOLOv5 repository is cloned locally for training but is not be pushed on this repository.
@@ -61,7 +60,7 @@ git clone https://github.com/hai-van-tran/vehicle-detection-yolov5
 </details>
 
 <details open>
-<summary><strong style="font-size: 1.5em;">4. Training</strong></summary>
+<summary><strong style="font-size: 1.7em;">4. Training</strong></summary>
 
 - To train the detection model using the pretrained weights (in this case `yolov5s.pt`), follow the below commands.
 The batch size and the number of epochs can be changed according to the technical availability and preference. 
@@ -82,8 +81,9 @@ replace the `--weights yolov5s.pt` option with the path to the best weights, for
 
 </details>
 
+<a id="5"></a>
 <details open>
-<summary><strong style="font-size: 1.5em;">5. Result</strong></summary>
+<summary><strong style="font-size: 1.7em;">5. Result</strong></summary>
 
 - Within this project, there were 2 trainings with different epoch numbers executed. The results are normally 
 automatically saved in the directory `yolov5/runs/train/exp` (the directory `yolov5` exists after the YOLOv5 repository is cloned.
@@ -95,7 +95,7 @@ while the results of training for 100 epochs are in `result/train/exp2`.
 </details>
 
 <details open>
-<summary><strong style="font-size: 1.5em;">6. Inference</strong></summary>
+<summary><strong style="font-size: 1.7em;">6. Inference</strong></summary>
 
 - In order to apply the model on detecting object, follow the below commands. 
 Output images after object detection are normally automatically saved in the directory `yolov5/runs/detect`.
